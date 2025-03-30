@@ -71,8 +71,8 @@ export const EditContact = (contact) => {
             }}>
                 Save
             </button>
-            <Link to="/">
-            <a className="link-danger"> go back to contacts</a>
+            <Link className="link-danger" to="/">
+            go back to contacts
             </Link>
         </div>
     )
