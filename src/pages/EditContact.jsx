@@ -53,7 +53,7 @@ export const EditContact = (contact) => {
                   
                         body: JSON.stringify({
                             "name": name,
-                            "phone": address,
+                            "phone": phone,
                             "email": email,
                             "address": address
                           }),
